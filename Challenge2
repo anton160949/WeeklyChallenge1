@@ -1,0 +1,24 @@
+public class WklyChallenge2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		int doTwice = 0;
+		
+		while (doTwice < 2)
+		{
+			for (int i = 0; i < 5; i++) 
+			{
+				System.out.println("      *********".substring(i, 7 + 2*i));
+			}
+			System.out.println(" ");
+			doTwice ++;
+		}
+		
+		
+		
+
+	}
+
+}
